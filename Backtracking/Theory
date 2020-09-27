@@ -1,0 +1,11 @@
+Đối với thuật toán quay lui, ta cần lưu ý như sau:
+  1) Sự khác biệt giữa quay lui(backtracking) và đệ quy(recursion):
+      -Recursion: hàm sẽ tự gọi cho đễn khi gặp được base case(trường hợp kết thúc đệ quy), tham khảo bài toán tính số fibonacci
+      -Backtracking: sử dụng recursion để tìm ra tất cả trường hợp có thể xảy ra cho đến khi có được trường hợp tốt nhất (nếu cần), tham khảo bài toán N con hậu
+  -------------------------------------------------------------------  
+  2) Mô hình chung cho thuật toán quay lui:
+  for (mọi giá trị V có thể gán cho x[i]) do
+  thử cho x[i] = V
+  if(x[i] là cấu hình cuối) in ra cấu hình tìm được
+  else thử với i+1
+      -Để rõ hơn có thể tham khảo các bài ở mục backtracking của phần CP1-LMH
